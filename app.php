@@ -7,7 +7,11 @@
 
  class Cliente
  {
-     //TODO
+     private $pontos;
+
+     public function getPontos(){
+         //TODO
+     } 
  }
 
  class Compra
@@ -21,45 +25,49 @@
             $this->itensCompra  = array(); 
         
         }
+        
 
-       
-        public  function getValor(){
-            //TODO
+        public  function getValorFinal(){
+            $promocao = new Promocao($this, $this->cliente);
+            return $this->getValor() - $promocao->getDesconto()->calcularDesconto();
         }
 
         public function getQuantidadeItens(){
             return sizeof($itensCompra);
         }
+        }
 
-        public  function adicionarPromocao(){
-            
+        private  function getValor(){
+            //TODO - return SUM valor itens
         }
 
         private function adicionarItem($item){
             $this->item[] = $item;
         }
 
-        private function calcularPromocao(){
-               $promocao = new Promocao();
-        }
-
+        
 
 
  }
 
 /**
- * Frabrica de Depêndecia
+ * Frabrica de Dependecia
  */
- static class Promocao(){
-     
-   function checar(Compra $compra){
-        if($compra->getValor() > 1000){
-            
-        }
+ class Promocao(){
+
+    private $compra;
+    private $cliente;
+
+    function __construct(Compra $compra, Cliente $cliente)
+    {
+        $this->cliente = $cliente;
+        $this->compra = $compra;
+    }
+
+   function getDesconto(){
+        if($this->compra->getValor() > 1000 || $this->compra->getQuantidadeItens() > 20)  return new compraTotal($this->compra->getValor());
+        if($this->cliente->getPontos() >= 100) return new programaFidelidade($this->compra->getValor());
    }
-
-
-
 
  }
  
@@ -71,8 +79,14 @@ interface Desconto{
 
 class compraTotal implements Desconto
 {
-    function calcularDesconto(){
+    private $valor;
+    
+    funtion __construct($valor){
+        $this->valor = $valor;
+    }
 
+    function calcularDesconto(){
+        return $this->valor * 0.1;
     }
 }
 
@@ -81,16 +95,13 @@ class compraTotal implements Desconto
 
 class programaFidelidade implements Desconto
 {
-    function calcularDesconto(){
-        
+    private $valor;
+    
+    funtion __construct($valor){
+        $this->valor = $valor;
     }
-}
 
-
-
-class quantidadeItensComprados implements Desconto
-{
     function calcularDesconto(){
-        
+        return $this->valor * 0.05;
     }
 }
