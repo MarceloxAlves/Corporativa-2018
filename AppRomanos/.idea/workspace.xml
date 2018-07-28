@@ -12,61 +12,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestAlgarismosRomano.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TestAlgarismosRomano.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestAlgarismosRomano.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="51" column="38" lean-forward="true" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
+            <state relative-caret-position="218">
+              <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#186#187#0" expanded="true" />
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#1325#1326#0" expanded="true" />
-                <element signature="e#1365#1366#0" expanded="true" />
-                <element signature="e#1173#1174#0" expanded="true" />
-                <element signature="e#1213#1214#0" expanded="true" />
+                <element signature="e#2328#2329#0" expanded="true" />
+                <element signature="e#2370#2371#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Romano.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Romano.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Romano.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="201">
+              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#Romano#0;class#Romano#0" />
-                <element signature="method#validar#0;class#Romano#0" />
-                <element signature="method#sequenciaValida#0;class#Romano#0" />
-                <element signature="method#maiorSequencia#0;class#Romano#0" />
+                <element signature="method#caracterValidos#0;class#Romano#0" />
+                <element signature="method#noEmpty#0;class#Romano#0" />
+                <element signature="method#noSequencia#0;class#Romano#0" />
+                <element signature="method#sequenciaAnteriorMenor#0;class#Romano#0" />
+                <element signature="method#maiorSequenciaValida#0;class#Romano#0" />
                 <element signature="method#converter#0;class#Romano#0" />
                 <element signature="method#initializeAlgarismoBase#0;class#Romano#0" />
-                <element signature="e#1116#1136#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyMath.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MyMath.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#56#57#0" expanded="true" />
-                <element signature="e#105#106#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,13 +55,21 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sequenciaAnteriorMenor</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Algarismo.java" />
         <option value="$PROJECT_DIR$/src/main/java/MyMath.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Romano.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestAlgarismosRomano.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Romano.java" />
       </list>
     </option>
   </component>
@@ -103,7 +84,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,38 +100,20 @@
               <item name="AppRomanos" type="b2602c69:ProjectViewProjectNode" />
               <item name="AppRomanos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppRomanos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppRomanos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppRomanos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppRomanos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppRomanos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppRomanos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -301,86 +263,90 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532628706757</updated>
-      <workItem from="1532628717066" duration="14533000" />
+      <workItem from="1532628717066" duration="14942000" />
+      <workItem from="1532709001185" duration="14387000" />
+      <workItem from="1532747743752" duration="216000" />
+      <workItem from="1532748561295" duration="15000" />
+      <workItem from="1532798206315" duration="5239000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestAlgarismosRomano - 2018.07.27 at 09h 49m 11s.xml">
+    <history-entry file="TestAlgarismosRomano - 2018.07.27 at 20h 19m 01s.xml">
       <configuration name="TestAlgarismosRomano" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAlgarismosRomano - 2018.07.27 at 09h 56m 51s.xml">
+    <history-entry file="TestAlgarismosRomano - 2018.07.27 at 20h 19m 11s.xml">
       <configuration name="TestAlgarismosRomano" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAlgarismosRomano - 2018.07.27 at 10h 16m 17s.xml">
+    <history-entry file="TestAlgarismosRomano - 2018.07.28 at 16h 49m 14s.xml">
       <configuration name="TestAlgarismosRomano" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAlgarismosRomano - 2018.07.27 at 10h 17m 08s.xml">
+    <history-entry file="TestAlgarismosRomano - 2018.07.28 at 17h 41m 16s.xml">
       <configuration name="TestAlgarismosRomano" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAlgarismosRomano - 2018.07.27 at 10h 18m 31s.xml">
+    <history-entry file="TestAlgarismosRomano - 2018.07.28 at 17h 41m 51s.xml">
       <configuration name="TestAlgarismosRomano" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAlgarismosRomano - 2018.07.27 at 10h 19m 05s.xml">
+    <history-entry file="TestAlgarismosRomano - 2018.07.28 at 17h 42m 36s.xml">
       <configuration name="TestAlgarismosRomano" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAlgarismosRomano - 2018.07.27 at 10h 20m 36s.xml">
+    <history-entry file="TestAlgarismosRomano - 2018.07.28 at 17h 42m 50s.xml">
       <configuration name="TestAlgarismosRomano" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAlgarismosRomano - 2018.07.27 at 10h 20m 53s.xml">
+    <history-entry file="TestAlgarismosRomano - 2018.07.28 at 17h 43m 02s.xml">
       <configuration name="TestAlgarismosRomano" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAlgarismosRomano - 2018.07.27 at 10h 21m 59s.xml">
+    <history-entry file="TestAlgarismosRomano - 2018.07.28 at 17h 43m 35s.xml">
       <configuration name="TestAlgarismosRomano" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAlgarismosRomano - 2018.07.27 at 10h 22m 14s.xml">
+    <history-entry file="TestAlgarismosRomano - 2018.07.28 at 17h 44m 19s.xml">
       <configuration name="TestAlgarismosRomano" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14533000" />
+    <option name="totallyTimeSpent" value="34799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.3290938" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290938" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3290938" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3290938" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
-      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.3290938" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.3290938" />
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
@@ -389,7 +355,7 @@
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.3290938" />
       <window_info anchor="right" id="Maven Projects" order="3" />
@@ -400,26 +366,48 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/NumeroRomano.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestAlgarismosRomano.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algarismo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="44" />
           <folding>
-            <element signature="e#107#108#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2328#2329#0" expanded="true" />
+            <element signature="e#2370#2371#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestAlgarismosRomano.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="49" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Romano.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyMath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NumeroRomano.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algarismo.java" />
     <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
@@ -427,53 +415,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyMath.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="153">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MyMath.java">
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/function/BiConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="131">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestAlgarismosRomano.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
           <folding>
-            <element signature="e#56#57#0" expanded="true" />
-            <element signature="e#105#106#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2328#2329#0" expanded="true" />
+            <element signature="e#2370#2371#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Romano.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="201">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Romano#0;class#Romano#0" />
-            <element signature="method#validar#0;class#Romano#0" />
-            <element signature="method#sequenciaValida#0;class#Romano#0" />
-            <element signature="method#maiorSequencia#0;class#Romano#0" />
+            <element signature="method#caracterValidos#0;class#Romano#0" />
+            <element signature="method#noEmpty#0;class#Romano#0" />
+            <element signature="method#noSequencia#0;class#Romano#0" />
+            <element signature="method#sequenciaAnteriorMenor#0;class#Romano#0" />
+            <element signature="method#maiorSequenciaValida#0;class#Romano#0" />
             <element signature="method#converter#0;class#Romano#0" />
             <element signature="method#initializeAlgarismoBase#0;class#Romano#0" />
-            <element signature="e#1116#1136#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestAlgarismosRomano.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="51" column="38" lean-forward="true" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#1325#1326#0" expanded="true" />
-            <element signature="e#1365#1366#0" expanded="true" />
-            <element signature="e#1173#1174#0" expanded="true" />
-            <element signature="e#1213#1214#0" expanded="true" />
           </folding>
         </state>
       </provider>
